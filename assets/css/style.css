@@ -25,8 +25,21 @@
  
 li  {
     display: inline;
-    color: gray; 
     }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:250px;
+    float: right;
+    margin-right: 20px;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
 .nav{
     margin-left: 500px;
     width: 50%;
@@ -36,7 +49,6 @@ li a{
     margin-top: 30px;
     margin-right: 20px;
     width: 90px;
-    color: gray;
  }    
 .nav a{
     width: 4em;
@@ -47,6 +59,7 @@ li a{
     color: #666699; 
     float:right;
     text-decoration-line: none;
+    font-size: 20px;
     }
 body {
     background: #ccd8ff;
@@ -56,8 +69,9 @@ body {
     height: 75px; 
     background: #ffffff;
     border-color: #cccccc; 
-    font-family:Georgia, Times, Times New Roman, serif;  
+    font-family:'Georgia', 'Times', 'Times New Roman', 'serif';  
 }
+
 .About{
     background: #ffffff;
     width: 650px;
@@ -72,6 +86,25 @@ body {
     font-size: 20px;
     margin-bottom: 50px;
    }
+
+div #Pic{
+    float: left;
+    width:40%;
+    margin-right: 1px;
+    display: block;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    }
+
+div p{
+   color: gray; 
+   width: 60%
+   margin-left:20px;
+   margin-top: 40px;
+   margin-left: 20px;
+   
+   } 
 #Portfolio {
     background:#ffffff;
     width: 650px;
@@ -108,52 +141,24 @@ body {
 #img3{
     float: left;
     clear: both;
-    margin-left: 30px;
-    padding: 30px;
-    margin-bottom: 30px;
+    margin-left: 40px;
+    
     
     }
 
 #img4{
     float: left;        
-    margin-left: 30px;
-    padding: 30px;
-    
+    margin-left: 90px;
+
     }
 
 #img5{
     float: left;
     clear: both;
-    margin-left: 30px;
-    padding: 30px;
+    margin-left: 40px;
+    padding: 60px.
     }
 
-.About{
-    background: #ffffff;
-    width: 650px;
-    margin-top: 50px;
-    margin-right: 40px;
-    padding: 30px;
-    color: #4aaaa5;
-    border: 1px solid gray;
-    float: left;
-    margin-left: 120px;
-    height: 40em;
-    font-size: 20px;
-    margin-bottom: 50px;
-   }
-div #Pic{
-    float: left;
-    width:40%;
-    padding: 1px;
-}
-
-div p{
-   float: right;
-   color: gray; 
-   width: 60%
-   
-   } 
 .Contact{
     background: #ffffff;
     width: 650px;
@@ -174,17 +179,19 @@ div p{
     background: #ffffff;
     float: left;
     margin-top: 50px;
-    margin-left: 65px;
+    margin-right: 130px;
     color: #4aaaa5;
     width: 270px;
     border: 1px solid gray;
     height: 170px;
     text-align: center;
     }  
+
 .connect a{
     
     margin-top: 50px;
     } 
+
 .connect img{
 margin-right: 10px;
 }
