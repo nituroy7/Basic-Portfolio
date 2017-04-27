@@ -86,17 +86,16 @@ body {
     font-size: 20px;
     margin-bottom: 50px;
    }
-    }
-#Portfolio, .name{
-    margin-left: 120px;
-}    
+
 .parent .overlay{
     position: relative;
     bottom: 2em;
     text-align: center;
     color: #ffffff;     
     width: 100%;
-    background-color: teal;
+    background-color: #4aaaa5;
+    height: 40px;
+    margin-bottom: 2px;
 }
 
 #img1, #img2 {
@@ -111,6 +110,7 @@ body {
     clear: both;
     margin-left: 30px;
     padding: 30px;
+    margin-bottom: 30px;
     
     }
 
@@ -142,14 +142,18 @@ body {
     font-size: 20px;
     margin-bottom: 50px;
    }
-#Pic{
+div #Pic{
     float: left;
+    width:40%;
+    padding: 1px;
 }
 
-p{
-   float: left;
+div p{
+   float: right;
    color: gray; 
-} 
+   width: 60%
+   
+   } 
 .Contact{
     background: #ffffff;
     width: 650px;
