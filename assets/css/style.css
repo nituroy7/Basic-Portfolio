@@ -13,7 +13,6 @@
 }
 .name{
     background: #4aaaa5;
-    color: white;
     text-align: center;
     margin: 0px;
     width: 300px;
@@ -22,6 +21,11 @@
     height: 75px;
     padding: 10px;
     }
+ .name p{
+    margin:0 auto;
+    color: white;
+    margin-top: 15px;
+ }   
  
 li  {
     display: inline;
